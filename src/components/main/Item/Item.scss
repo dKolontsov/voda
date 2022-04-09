@@ -1,0 +1,41 @@
+.item {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #111827;
+}
+.buttons {
+  width: 270px;
+  display: flex;
+  justify-content: space-evenly;
+}
+td {
+  margin: 0;
+  padding: 0;
+  border-spacing: 0;
+  width: 270px;
+  text-align: center;
+}
+.itemTable {
+  width: 1080px;
+  display: flex;
+  justify-content: space-around;
+  span {
+    width: 270px;
+    display: flex;
+    justify-content: space-around;
+  }
+  input {
+    width: 130px;
+    height: 20px;
+    border:none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+}
+.tableName {
+  width: 190px;
+  text-align: start;
+  padding-left: 80px;
+}

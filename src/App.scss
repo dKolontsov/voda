@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  background-color: beige;
+}
+
+.wrapper {
+  background: white;
+  width: 1080px;
+  margin: 0 auto;
+  box-shadow: 2px 2px 1px 2px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+
+.topCon {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pdf {
+  text-align: center;
+  overflow: hidden;
+  width: 110px;
+  height: 34px;
+}
+
+.topConRight {
+  display: flex;
+  width: 206px;
+  margin-right: 20px;
+  align-items: center;
+  border: 1px solid #f3f3f3;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  input {
+    border: none;
+    padding: 4px;
+
+  }
+  input:focus {
+    border: none;
+    outline: none;
+  }
+  .close {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+}
+
+
+.addItem {
+  width: 1080px;
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+  padding-bottom: 15px;
+  span {
+    width: 270px;
+    text-align: center;
+  }
+  button {
+  width: 140px;
+  }
+  input {
+    width: 130px;
+    height: 20px;
+    border:none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  input:hover{
+    box-shadow: 2px 2px 4px 1px rgba(2,2,2, 0.2)
+  }
+  input:focus {
+    border: 1px solid;
+  }
+}
+
+th {
+  width: 270px;
+  cursor: pointer;
+}
+
+.tableNames {
+  width: 1080px;
+  display: flex;
+  justify-content: space-around;
+}
